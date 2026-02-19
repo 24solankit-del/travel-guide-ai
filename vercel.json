@@ -1,1 +1,15 @@
-{\n  "version": 2,\n  "builds": [\n    {\n      "src": "app.py",\n      "use": "@vercel/python"\n    }\n  ],\n  "routes": [\n    {\n      "src": "/(.*)",\n      "dest": "app.py"\n    }\n  ]\n}
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ]
+}
